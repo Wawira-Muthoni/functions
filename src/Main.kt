@@ -1,23 +1,20 @@
 fun main(){
-    myname("xtine")
-    quotient(27,12)
-    add(24,10,7,3)
-    inter("i like sleeping too much")
+    greeting("xtine")
+    modulus(57,2)
+    add(25,56,70,43)
+    interestingthing("Ilove sleeping")
+ }
+fun greeting(name:String){
+    println("Hello "+name)
 }
-fun myname(name:String){
-    println("Hello" + name)
+fun modulus(a:Int,b:Int){
+    var modu = a%b
+    println(a%b)
 }
-
-fun quotient(a: Int, b: Int){
-    var result=a%b
-    println(result)
+fun add(a:Int,b:Int,c:Int,d:Int){
+    var sum = a+b+c+d
+    println(sum)
 }
-
-fun add(a:Int, b:Int,c:Int,d:Int){
-    var result = a+b+c+d
-    println(result)
-}
-
-fun inter(funny:String){
-    println("i like sleeping too much")
+fun interestingthing(name:String){
+    println("I love sleeping")
 }
